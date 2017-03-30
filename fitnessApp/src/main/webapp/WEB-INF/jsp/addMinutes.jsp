@@ -9,29 +9,88 @@
 <title>Add Minutes Page</title>
 </head>
 <body>
-	<h1>Tienda de Cubos Rubik Online</h1>
-	<form:form commandName="exercise">
-		<table>
-			<tr>
-				<td>Minutes Exercise For Today:</td>
+      <center>
+		<img src="img/Encabezado.JPG" style="width:1400px; height: 400px; boder:5;">
+	  </center>
+	  <center>	
+	     <h1><font color="Navy" face="Arial" size=7>Tenis Futbol</h1>
+	  </center>	
+	  <form:form commandName="exercise">
+	  <table style="width:100%">
+			
+		<tr>
+        <th> <font color="aqua" face="Arial" size=6>Futbol7 </font></th>
+        <th><font color="blue" face="Arial" size=6>Césped natural</th>
+        <th><font color="marron" face="Arial" size=6>Profecionales</th>
+       </tr>	
+     <tr>
+     <center>
+      <td><img src="img/t1.jpg" style="width: 350px; height: 200px;">
+        <p><font size=2>Modelo714, $1200 </font></p></td>
+      <td><img src="img/t2.jpg" style="width: 350px; height: 200px;">
+        <p><font size=2>Modelo820 </font></p></td>
+      <td><img src="img/t5.jpg"style="width: 350px; height: 200px;">
+        <p><font size=2>Modelo930 </font></p></td>
+     </center>
+    </tr>	
+    <tr> 
+    <center>
+        <td><img src="img/t9.jpg"style="width: 350px; height: 200px; ">
+         <p><font size=2>Modelo715 </font></p></td>
+        <td><img src="img/t4.jpg"style="width: 350px; height: 200px;">
+         <p><font size=2>Modelo821 </font></p></td>
+        <td><img src="img/t3.jpg"style="width: 350px; height: 200px; ">
+         <p><font size=2>Modelo931 </font></p></td>
+   </center>
+  </tr>
+   <tr>
+   <center>
+    <td><img src="img/t10.jpg"style="width:  350px; height:200px; ">
+         <p><font size=2>Modelo716 </font></p></td>
+         <td><img src="img/t8.jpg"style="width:  350px; height:200px; ">
+         <p><font size=2>Modelo822 </font></p></td>
+         <td><img src="img/t6.jpg"style="width:  350px; height:200px; ">
+          <p><font size=2>Modelo932 </font></p></td>
+  </center>
+  </tr>
+  
+			<td><font color="navy" face="Arial" size=3>Selecciona Modelo</font></td>
+			   <td> 
+			      <form:select path="tipo">
+			      <option value=" Modelo 714, $1200">Modelo 714</option>
+			      <option value="Modelo715">Modelo715</option>
+			      <option value="Modelo716">Modelo716, </option>
+			      <option value="Modelo 820">Modelo 820</option>
+			      <option value="Modelo 821">Modelo 821</option>
+			      <option value="Modelo 822">Modelo 822</option>
+			      <option value="Modelo 930">Modelo 930</option>
+			      <option value="Modelo 931">Modelo 931</option>
+			      <option value="Modelo 932">Modelo 932</option>
+			</form:select>
+			
+			  </td>
+			  
+			     <td><font color="navy" face="Arial" size=3>Selecciona la talla</td>
+		 <td> <form:select path="talla">
+			     <option value=" 26">26</option>
+			     <option value=" 26.5">26.5</option>
+			     <option value="27">27</option>
+			     <option value="27.5">27.5</option>
+			     <option value="28">28</option>
+			     <option value="28.5">28.5</option>
+			      <option value="29">29</option>
+			</form:select>
+			  </td>
+		
+			  <tr>
+				<td><font color="navy" face="Arial" size=3>Pares</font></td> 
 				<td><form:input path="minutes" /></td>
-			</tr>
-			<center>
-				<img src="img/2.jpg" style="width: 140px; height: 190px; border: 5;">
-			</center>
-			<center>
-				<img src="img/3.jpg" style="width: 190px; height: 190px; border: 5;">
-			</center>
-			<center>
-				<img src="img/tetra.jpg"
-					style="width: 190px; height: 190px; border: 5;">
-			</center>
+			  </tr>
 			<tr>
-				<td colspan="2"><input type="submit" value="Enviar" /></td>
+				<td colspan="2"><input type="submit" value="Comprar" /></td>
 			</tr>
+			<!-- <a href="html_images.asp">HTML Images</a>-->
 		</table>
-
-
 	</form:form>
 
 </body>

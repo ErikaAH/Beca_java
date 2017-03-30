@@ -5,6 +5,24 @@ public class Exercise {
 	private int minutes;
 	private String rutina;
 	private String nombre;
+	private String tipo;
+	private float talla;
+
+	public float getTalla() {
+		return talla;
+	}
+
+	public void setTalla(float talla) {
+		this.talla = talla;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
 
 	public int getMinutes() {
 		return minutes;
