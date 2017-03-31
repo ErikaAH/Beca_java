@@ -4,7 +4,6 @@ public class Exercise {
 
 	private int minutes;
 	private String rutina;
-	private String nombre;
 	private String tipo;
 	private float talla;
 
@@ -38,13 +37,5 @@ public class Exercise {
 
 	public void setRutina(String rutina) {
 		this.rutina = rutina;
-	}
-	
-	public String getNombre(){
-		return nombre;
-	}
-	
-	public void setNombre(String nombre){
-		this.nombre = nombre;
 	}
 }
